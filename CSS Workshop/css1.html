@@ -1,0 +1,62 @@
+
+<html>
+<head>
+	<title>Two Column Page</title>
+	<style>
+		.container {
+			display: flex;
+			flex-direction: row;
+			width: 100%;
+		}
+		
+		.column {
+			flex: 1;
+			padding: 20px;
+			height: 100%;
+		}
+		
+		.left {
+			background-color: lightgray;
+		}
+		
+		.right {
+			background-color: lightgreen;
+		}
+		
+		ul {
+			list-style-type: none;
+			padding: 0;
+			margin: 0;
+			font-size: 18px;
+		}
+		
+		li {
+			margin: 10px 0;
+		}
+	</style>
+</head>
+<body>
+	<div class="container">
+		<div class="column left">
+			<h2>Bestselling Books in Amazon's Kindle Store</h2>
+			<ul>
+				<li>The Four Winds by Kristin Hannah</li>
+				<li>The Sanatorium by Sarah Pearse</li>
+				<li>The Silent Patient by Alex Michaelides</li>
+				<li>The Midnight Library by Matt Haig</li>
+				<li>The Vanishing Half by Brit Bennett</li>
+			</ul>
+		</div>
+		<div class="column right">
+			<h2>My Favorite Celebrities or Athletes</h2>
+			<ul>
+				<li>Neeraj Chopra</li>
+				<li>P.V. Sindhi</li>
+				<li>Tom Brady</li>
+				<li>Beyonce</li>
+				<li></li>
+			</ul>
+		</div>
+	</div>
+</body>
+</html>
